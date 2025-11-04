@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_aTCK8LPvEfCRbumuhMEaZg" name="USU operation system use casr diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_acisQLPvEfCRbumuhMEaZg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Gt4lgLlvEfC51IdjCsP5TQ" name="USU officer "/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_n0mHsLlvEfC51IdjCsP5TQ" name="USU Operation system" useCase="_wjSWILlvEfC51IdjCsP5TQ _CTSNALlwEfC51IdjCsP5TQ _YIRjULlwEfC51IdjCsP5TQ _oN2fwLlwEfC51IdjCsP5TQ _t24k0LlwEfC51IdjCsP5TQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wjSWILlvEfC51IdjCsP5TQ" name="Accept/Reveiw USU applications " subject="_n0mHsLlvEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CTSNALlwEfC51IdjCsP5TQ" name="Review/Accept student Union information updates " subject="_n0mHsLlvEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YIRjULlwEfC51IdjCsP5TQ" name="Terminate USU membership " subject="_n0mHsLlvEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oN2fwLlwEfC51IdjCsP5TQ" name="Create USU events" subject="_n0mHsLlvEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_t24k0LlwEfC51IdjCsP5TQ" name="share event info and updates" subject="_n0mHsLlvEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gMEaoLlwEfC51IdjCsP5TQ" memberEnd="_gMHd8LlwEfC51IdjCsP5TQ _gMJTILlwEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gMG24LlwEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gMG24blwEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gMHd8LlwEfC51IdjCsP5TQ" name="usu officer " type="_Gt4lgLlvEfC51IdjCsP5TQ" association="_gMEaoLlwEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gMJTILlwEfC51IdjCsP5TQ" name="accept/reveiw usu applications " type="_wjSWILlvEfC51IdjCsP5TQ" association="_gMEaoLlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_grpSkLlwEfC51IdjCsP5TQ" memberEnd="_grpSk7lwEfC51IdjCsP5TQ _grpSlLlwEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_grpSkblwEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_grpSkrlwEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_grpSk7lwEfC51IdjCsP5TQ" name="usu officer " type="_Gt4lgLlvEfC51IdjCsP5TQ" association="_grpSkLlwEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_grpSlLlwEfC51IdjCsP5TQ" name="review accept student union information updates " type="_CTSNALlwEfC51IdjCsP5TQ" association="_grpSkLlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hHdr4LlwEfC51IdjCsP5TQ" memberEnd="_hHeS8rlwEfC51IdjCsP5TQ _hHe6ALlwEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hHeS8LlwEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hHeS8blwEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hHeS8rlwEfC51IdjCsP5TQ" name="usu officer " type="_Gt4lgLlvEfC51IdjCsP5TQ" association="_hHdr4LlwEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hHe6ALlwEfC51IdjCsP5TQ" name="terminate usu membership " type="_YIRjULlwEfC51IdjCsP5TQ" association="_hHdr4LlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rjEvILlwEfC51IdjCsP5TQ" memberEnd="_rjFWMrlwEfC51IdjCsP5TQ _rjFWM7lwEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rjFWMLlwEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rjFWMblwEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rjFWMrlwEfC51IdjCsP5TQ" name="usu officer " type="_Gt4lgLlvEfC51IdjCsP5TQ" association="_rjEvILlwEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rjFWM7lwEfC51IdjCsP5TQ" name="create usu events" type="_oN2fwLlwEfC51IdjCsP5TQ" association="_rjEvILlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_v6e0QLlwEfC51IdjCsP5TQ" client="_oN2fwLlwEfC51IdjCsP5TQ" supplier="_t24k0LlwEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w8UrwLlwEfC51IdjCsP5TQ" memberEnd="_w8VS0rlwEfC51IdjCsP5TQ _w8V54LlwEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w8VS0LlwEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w8VS0blwEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w8VS0rlwEfC51IdjCsP5TQ" name="usu officer " type="_Gt4lgLlvEfC51IdjCsP5TQ" association="_w8UrwLlwEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w8V54LlwEfC51IdjCsP5TQ" name="share event info and updates" type="_t24k0LlwEfC51IdjCsP5TQ" association="_w8UrwLlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_2yE-MLlwEfC51IdjCsP5TQ" name="Union Managent System" useCase="_IahbkLlxEfC51IdjCsP5TQ _MkKxgLlxEfC51IdjCsP5TQ _tubW8LlxEfC51IdjCsP5TQ _2gH2ELlxEfC51IdjCsP5TQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_IahbkLlxEfC51IdjCsP5TQ" name="Create USU application " subject="_2yE-MLlwEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MkKxgLlxEfC51IdjCsP5TQ" name="Apply to update union information" subject="_2yE-MLlwEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tubW8LlxEfC51IdjCsP5TQ" name="Apply to terminate USU membership" subject="_2yE-MLlwEfC51IdjCsP5TQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2gH2ELlxEfC51IdjCsP5TQ" name="Promote USU event" subject="_2yE-MLlwEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FehkgLlxEfC51IdjCsP5TQ" name="Student Union "/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KcQp0LlxEfC51IdjCsP5TQ" memberEnd="_KcQp07lxEfC51IdjCsP5TQ _KcQp1LlxEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KcQp0blxEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KcQp0rlxEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KcQp07lxEfC51IdjCsP5TQ" name="create usu application " type="_IahbkLlxEfC51IdjCsP5TQ" association="_KcQp0LlxEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KcQp1LlxEfC51IdjCsP5TQ" name="student union " type="_FehkgLlxEfC51IdjCsP5TQ" association="_KcQp0LlxEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qlFncLlxEfC51IdjCsP5TQ" memberEnd="_qlG1krlxEfC51IdjCsP5TQ _qlG1k7lxEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qlG1kLlxEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qlG1kblxEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qlG1krlxEfC51IdjCsP5TQ" name="apply to update union information" type="_MkKxgLlxEfC51IdjCsP5TQ" association="_qlFncLlxEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qlG1k7lxEfC51IdjCsP5TQ" name="student union " type="_FehkgLlxEfC51IdjCsP5TQ" association="_qlFncLlxEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7y9BoLlxEfC51IdjCsP5TQ" memberEnd="_7y-PwLlxEfC51IdjCsP5TQ _7y-PwblxEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7y9osLlxEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7y9osblxEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7y-PwLlxEfC51IdjCsP5TQ" name="promote usu event" type="_2gH2ELlxEfC51IdjCsP5TQ" association="_7y9BoLlxEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7y-PwblxEfC51IdjCsP5TQ" name="student union " type="_FehkgLlxEfC51IdjCsP5TQ" association="_7y9BoLlxEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FQeE8LlyEfC51IdjCsP5TQ" client="_tubW8LlxEfC51IdjCsP5TQ" supplier="_YIRjULlwEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_F3gPwLlyEfC51IdjCsP5TQ" client="_MkKxgLlxEfC51IdjCsP5TQ" supplier="_CTSNALlwEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_GWbncLlyEfC51IdjCsP5TQ" client="_IahbkLlxEfC51IdjCsP5TQ" supplier="_wjSWILlvEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_LMRVALlyEfC51IdjCsP5TQ" client="_oN2fwLlwEfC51IdjCsP5TQ" supplier="_2gH2ELlxEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QCuGkLlyEfC51IdjCsP5TQ" memberEnd="_QCvUsblyEfC51IdjCsP5TQ _QCvUsrlyEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QCutoLlyEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QCvUsLlyEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QCvUsblyEfC51IdjCsP5TQ" name="student union " type="_FehkgLlxEfC51IdjCsP5TQ" association="_QCuGkLlyEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QCvUsrlyEfC51IdjCsP5TQ" name="apply to terminate usu membership" type="_tubW8LlxEfC51IdjCsP5TQ" association="_QCuGkLlyEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_hvGowLlyEfC51IdjCsP5TQ" name="USU student app" useCase="_kBaCkLlyEfC51IdjCsP5TQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kBaCkLlyEfC51IdjCsP5TQ" name="Join USU events" subject="_hvGowLlyEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_od0jgLlyEfC51IdjCsP5TQ" name="Student"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ps7a8LlyEfC51IdjCsP5TQ" memberEnd="_ps8CArlyEfC51IdjCsP5TQ _ps8CA7lyEfC51IdjCsP5TQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ps8CALlyEfC51IdjCsP5TQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ps8CAblyEfC51IdjCsP5TQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ps8CArlyEfC51IdjCsP5TQ" name="join usu events" type="_kBaCkLlyEfC51IdjCsP5TQ" association="_ps7a8LlyEfC51IdjCsP5TQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ps8CA7lyEfC51IdjCsP5TQ" name="student" type="_od0jgLlyEfC51IdjCsP5TQ" association="_ps7a8LlyEfC51IdjCsP5TQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_u2GUMLlyEfC51IdjCsP5TQ" client="_t24k0LlwEfC51IdjCsP5TQ" supplier="_kBaCkLlyEfC51IdjCsP5TQ"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_zzkeULlzEfC51IdjCsP5TQ" name="USU application" node="_XXN9ALl0EfC51IdjCsP5TQ _hRemsLl0EfC51IdjCsP5TQ _nvCgALl0EfC51IdjCsP5TQ _2jYeELl0EfC51IdjCsP5TQ _WfEXkLl1EfC51IdjCsP5TQ _dtMLILl1EfC51IdjCsP5TQ _xGBoELl1EfC51IdjCsP5TQ _AkjgsLl4EfC51IdjCsP5TQ" group="_N_QvILl0EfC51IdjCsP5TQ _dEb-gLl0EfC51IdjCsP5TQ">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_peuqELl2EfC51IdjCsP5TQ" name="USU application" node="_peuqI7l2EfC51IdjCsP5TQ _peuqJLl2EfC51IdjCsP5TQ _peuqJbl2EfC51IdjCsP5TQ _peuqJrl2EfC51IdjCsP5TQ _peuqKLl2EfC51IdjCsP5TQ _peuqKbl2EfC51IdjCsP5TQ _peuqKrl2EfC51IdjCsP5TQ" group="_peuqEbl2EfC51IdjCsP5TQ _peuqErl2EfC51IdjCsP5TQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_peuqE7l2EfC51IdjCsP5TQ" target="_peuqJLl2EfC51IdjCsP5TQ" source="_peuqI7l2EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_peuqFLl2EfC51IdjCsP5TQ" target="_peuqJrl2EfC51IdjCsP5TQ" source="_peuqJLl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_peuqFbl2EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_peuqFrl2EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_peuqF7l2EfC51IdjCsP5TQ" target="_peuqJbl2EfC51IdjCsP5TQ" source="_peuqJrl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_peuqGLl2EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_peuqGbl2EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_peuqGrl2EfC51IdjCsP5TQ" inPartition="_peuqErl2EfC51IdjCsP5TQ" target="_peuqKLl2EfC51IdjCsP5TQ" source="_peuqJbl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_peuqG7l2EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_peuqHLl2EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_peuqHbl2EfC51IdjCsP5TQ" name="Reject Application" inPartition="_peuqErl2EfC51IdjCsP5TQ" target="_peuqKrl2EfC51IdjCsP5TQ" source="_peuqKLl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_peuqHrl2EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_peuqH7l2EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_peuqILl2EfC51IdjCsP5TQ" name="Accept applciation" inPartition="_peuqErl2EfC51IdjCsP5TQ" target="_peuqKbl2EfC51IdjCsP5TQ" source="_peuqKLl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_peuqIbl2EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_peuqIrl2EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_peuqEbl2EfC51IdjCsP5TQ" name="Student Union" node="_peuqJLl2EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_peuqErl2EfC51IdjCsP5TQ" name="USU officer" node="_peuqJbl2EfC51IdjCsP5TQ _peuqKLl2EfC51IdjCsP5TQ _peuqKbl2EfC51IdjCsP5TQ _peuqKrl2EfC51IdjCsP5TQ" edge="_peuqGrl2EfC51IdjCsP5TQ _peuqHbl2EfC51IdjCsP5TQ _peuqILl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_peuqI7l2EfC51IdjCsP5TQ" name="" outgoing="_peuqE7l2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_peuqJLl2EfC51IdjCsP5TQ" name="Apply to join the USU" incoming="_peuqE7l2EfC51IdjCsP5TQ" outgoing="_peuqFLl2EfC51IdjCsP5TQ" inPartition="_peuqEbl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_peuqJbl2EfC51IdjCsP5TQ" name="Recive USU application" incoming="_peuqF7l2EfC51IdjCsP5TQ" outgoing="_peuqGrl2EfC51IdjCsP5TQ" inPartition="_peuqErl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_peuqJrl2EfC51IdjCsP5TQ" name="CentralBufferNode6" incoming="_peuqFLl2EfC51IdjCsP5TQ" outgoing="_peuqF7l2EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_peuqJ7l2EfC51IdjCsP5TQ" value="1"/>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_peuqKLl2EfC51IdjCsP5TQ" name="Reveiw USU application" incoming="_peuqGrl2EfC51IdjCsP5TQ" outgoing="_peuqHbl2EfC51IdjCsP5TQ _peuqILl2EfC51IdjCsP5TQ" inPartition="_peuqErl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_peuqKbl2EfC51IdjCsP5TQ" name="Add Union to the database and prepair USU account" incoming="_peuqILl2EfC51IdjCsP5TQ" inPartition="_peuqErl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_peuqKrl2EfC51IdjCsP5TQ" name="Send rejection to Union" incoming="_peuqHbl2EfC51IdjCsP5TQ" inPartition="_peuqErl2EfC51IdjCsP5TQ"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_tLYiALl2EfC51IdjCsP5TQ" name="USU updating Information" node="_7FJHILl2EfC51IdjCsP5TQ _8bgdILl2EfC51IdjCsP5TQ _CJ5jULl3EfC51IdjCsP5TQ _KDtYMLl3EfC51IdjCsP5TQ _PLP5wLl3EfC51IdjCsP5TQ _RumAQLl3EfC51IdjCsP5TQ _V_WDwLl3EfC51IdjCsP5TQ _J65lALl4EfC51IdjCsP5TQ" group="_02InMLl2EfC51IdjCsP5TQ _28QmMLl2EfC51IdjCsP5TQ">
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_d00yQLl3EfC51IdjCsP5TQ" target="_CJ5jULl3EfC51IdjCsP5TQ" source="_8bgdILl2EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_d098MLl3EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_d098Mbl3EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_kLqYgLl3EfC51IdjCsP5TQ" target="_8bgdILl2EfC51IdjCsP5TQ" source="_7FJHILl2EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_k6Gy4Ll3EfC51IdjCsP5TQ" target="_KDtYMLl3EfC51IdjCsP5TQ" source="_CJ5jULl3EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_k6P80Ll3EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_k6P80bl3EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_mSHHoLl3EfC51IdjCsP5TQ" inPartition="_28QmMLl2EfC51IdjCsP5TQ" target="_PLP5wLl3EfC51IdjCsP5TQ" source="_KDtYMLl3EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_nfJigLl3EfC51IdjCsP5TQ" name="Accept changes" inPartition="_28QmMLl2EfC51IdjCsP5TQ" target="_RumAQLl3EfC51IdjCsP5TQ" source="_PLP5wLl3EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_pmH2ELl3EfC51IdjCsP5TQ" name="Reject changes" inPartition="_28QmMLl2EfC51IdjCsP5TQ" target="_V_WDwLl3EfC51IdjCsP5TQ" source="_PLP5wLl3EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_O8w8YLl4EfC51IdjCsP5TQ" target="_J65lALl4EfC51IdjCsP5TQ" source="_RumAQLl3EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_O86tYLl4EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_O86tYbl4EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_02InMLl2EfC51IdjCsP5TQ" name="student union" node="_8bgdILl2EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_28QmMLl2EfC51IdjCsP5TQ" name="USU officer" node="_KDtYMLl3EfC51IdjCsP5TQ _PLP5wLl3EfC51IdjCsP5TQ _RumAQLl3EfC51IdjCsP5TQ _V_WDwLl3EfC51IdjCsP5TQ" edge="_mSHHoLl3EfC51IdjCsP5TQ _nfJigLl3EfC51IdjCsP5TQ _pmH2ELl3EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_7FJHILl2EfC51IdjCsP5TQ" name="" outgoing="_kLqYgLl3EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_8bgdILl2EfC51IdjCsP5TQ" name="Apply to edit USU information" incoming="_kLqYgLl3EfC51IdjCsP5TQ" outgoing="_d00yQLl3EfC51IdjCsP5TQ" inPartition="_02InMLl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_CJ5jULl3EfC51IdjCsP5TQ" name="USU infomation change" incoming="_d00yQLl3EfC51IdjCsP5TQ" outgoing="_k6Gy4Ll3EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_CJ6xcLl3EfC51IdjCsP5TQ" value="1"/>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_KDtYMLl3EfC51IdjCsP5TQ" name="Recive USU information change request" incoming="_k6Gy4Ll3EfC51IdjCsP5TQ" outgoing="_mSHHoLl3EfC51IdjCsP5TQ" inPartition="_28QmMLl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_PLP5wLl3EfC51IdjCsP5TQ" name="Review USU information change" incoming="_mSHHoLl3EfC51IdjCsP5TQ" outgoing="_nfJigLl3EfC51IdjCsP5TQ _pmH2ELl3EfC51IdjCsP5TQ" inPartition="_28QmMLl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_RumAQLl3EfC51IdjCsP5TQ" name="Edit the data stroed to contain new data" incoming="_nfJigLl3EfC51IdjCsP5TQ" outgoing="_O8w8YLl4EfC51IdjCsP5TQ" inPartition="_28QmMLl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_V_WDwLl3EfC51IdjCsP5TQ" name="Inform union of the rejection" incoming="_pmH2ELl3EfC51IdjCsP5TQ" inPartition="_28QmMLl2EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_J65lALl4EfC51IdjCsP5TQ" name="Edit union data" incoming="_O8w8YLl4EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_J67aMLl4EfC51IdjCsP5TQ" value="1"/>
+      </node>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_6-CkILl3EfC51IdjCsP5TQ" name="USU termination" node="_Y5edILl4EfC51IdjCsP5TQ _e7tFULl4EfC51IdjCsP5TQ _jztWELl4EfC51IdjCsP5TQ _mMwRELl4EfC51IdjCsP5TQ _tVJQELl4EfC51IdjCsP5TQ" group="_b0eOoLl4EfC51IdjCsP5TQ _cQxwILl4EfC51IdjCsP5TQ">
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_06KgsLl4EfC51IdjCsP5TQ" target="_jztWELl4EfC51IdjCsP5TQ" source="_e7tFULl4EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_06Vf0Ll4EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_06Vf0bl4EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_2dR5QLl4EfC51IdjCsP5TQ" target="_mMwRELl4EfC51IdjCsP5TQ" source="_jztWELl4EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_2ddfcLl4EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_2ddfcbl4EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_68EYwLl4EfC51IdjCsP5TQ" target="_e7tFULl4EfC51IdjCsP5TQ" source="_Y5edILl4EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_83p7sLl4EfC51IdjCsP5TQ" target="_tVJQELl4EfC51IdjCsP5TQ" source="_mMwRELl4EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_831h4Ll4EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_831h4bl4EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_b0eOoLl4EfC51IdjCsP5TQ" name="Student Union" node="_e7tFULl4EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_cQxwILl4EfC51IdjCsP5TQ" name="USU officer" node="_mMwRELl4EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_Y5edILl4EfC51IdjCsP5TQ" name="" outgoing="_68EYwLl4EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_e7tFULl4EfC51IdjCsP5TQ" name="Apply to terminate USU memebership" incoming="_68EYwLl4EfC51IdjCsP5TQ" outgoing="_06KgsLl4EfC51IdjCsP5TQ" inPartition="_b0eOoLl4EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_jztWELl4EfC51IdjCsP5TQ" name="USU termination request" incoming="_06KgsLl4EfC51IdjCsP5TQ" outgoing="_2dR5QLl4EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jzt9ILl4EfC51IdjCsP5TQ" value="1"/>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_mMwRELl4EfC51IdjCsP5TQ" name="Recive USU termination request" incoming="_2dR5QLl4EfC51IdjCsP5TQ" outgoing="_83p7sLl4EfC51IdjCsP5TQ" inPartition="_cQxwILl4EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_tVJQELl4EfC51IdjCsP5TQ" name="Remove all of that unions data" incoming="_83p7sLl4EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_tVJ3ILl4EfC51IdjCsP5TQ" value="1"/>
+      </node>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_KAVCILl5EfC51IdjCsP5TQ" name="Create USU event" node="_RCmLALl5EfC51IdjCsP5TQ _SQuyELl5EfC51IdjCsP5TQ _dSOJkLl5EfC51IdjCsP5TQ _iAGN8Ll5EfC51IdjCsP5TQ _k4rkoLl5EfC51IdjCsP5TQ _nea30Ll5EfC51IdjCsP5TQ _4POikLl5EfC51IdjCsP5TQ _7mXdgLl5EfC51IdjCsP5TQ _8_d-cLl5EfC51IdjCsP5TQ" group="_PNHQELl5EfC51IdjCsP5TQ _XGQ9oLl5EfC51IdjCsP5TQ _ahz3cLl5EfC51IdjCsP5TQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_tXoG4Ll5EfC51IdjCsP5TQ" target="_SQuyELl5EfC51IdjCsP5TQ" source="_RCmLALl5EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_t-KicLl5EfC51IdjCsP5TQ" target="_dSOJkLl5EfC51IdjCsP5TQ" source="_SQuyELl5EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_t-ddYLl5EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_t-eEcLl5EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_vs8_gLl5EfC51IdjCsP5TQ" target="_iAGN8Ll5EfC51IdjCsP5TQ" source="_dSOJkLl5EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_vtLB8Ll5EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_vtLB8bl5EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_w7AuELl5EfC51IdjCsP5TQ" target="_k4rkoLl5EfC51IdjCsP5TQ" source="_iAGN8Ll5EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_w7OwgLl5EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_w7Owgbl5EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_x3s_0Ll5EfC51IdjCsP5TQ" target="_nea30Ll5EfC51IdjCsP5TQ" source="_iAGN8Ll5EfC51IdjCsP5TQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_x37CQLl5EfC51IdjCsP5TQ" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_x37CQbl5EfC51IdjCsP5TQ" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_GeIRQLl6EfC51IdjCsP5TQ" inPartition="_XGQ9oLl5EfC51IdjCsP5TQ" target="_4POikLl5EfC51IdjCsP5TQ" source="_k4rkoLl5EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_G3S_MLl6EfC51IdjCsP5TQ" inPartition="_ahz3cLl5EfC51IdjCsP5TQ" target="_7mXdgLl5EfC51IdjCsP5TQ" source="_nea30Ll5EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Hls9ULl6EfC51IdjCsP5TQ" target="_8_d-cLl5EfC51IdjCsP5TQ" source="_7mXdgLl5EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_PNHQELl5EfC51IdjCsP5TQ" name="USU officer" node="_SQuyELl5EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_XGQ9oLl5EfC51IdjCsP5TQ" name="Student union" node="_k4rkoLl5EfC51IdjCsP5TQ _4POikLl5EfC51IdjCsP5TQ" edge="_GeIRQLl6EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_ahz3cLl5EfC51IdjCsP5TQ" name="Student" node="_nea30Ll5EfC51IdjCsP5TQ _7mXdgLl5EfC51IdjCsP5TQ" edge="_G3S_MLl6EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_RCmLALl5EfC51IdjCsP5TQ" name="" outgoing="_tXoG4Ll5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_SQuyELl5EfC51IdjCsP5TQ" name="create USU event" incoming="_tXoG4Ll5EfC51IdjCsP5TQ" outgoing="_t-KicLl5EfC51IdjCsP5TQ" inPartition="_PNHQELl5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_dSOJkLl5EfC51IdjCsP5TQ" name="Event details" incoming="_t-KicLl5EfC51IdjCsP5TQ" outgoing="_vs8_gLl5EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_dSOwoLl5EfC51IdjCsP5TQ" value="1"/>
+      </node>
+      <node xmi:type="uml:ForkNode" xmi:id="_iAGN8Ll5EfC51IdjCsP5TQ" name="" incoming="_vs8_gLl5EfC51IdjCsP5TQ" outgoing="_w7AuELl5EfC51IdjCsP5TQ _x3s_0Ll5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_k4rkoLl5EfC51IdjCsP5TQ" name="Veiw event detials" incoming="_w7AuELl5EfC51IdjCsP5TQ" outgoing="_GeIRQLl6EfC51IdjCsP5TQ" inPartition="_XGQ9oLl5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nea30Ll5EfC51IdjCsP5TQ" name="Veiw event detials" incoming="_x3s_0Ll5EfC51IdjCsP5TQ" outgoing="_G3S_MLl6EfC51IdjCsP5TQ" inPartition="_ahz3cLl5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_4POikLl5EfC51IdjCsP5TQ" name="Share event details" incoming="_GeIRQLl6EfC51IdjCsP5TQ" inPartition="_XGQ9oLl5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_7mXdgLl5EfC51IdjCsP5TQ" name="Join event" incoming="_G3S_MLl6EfC51IdjCsP5TQ" outgoing="_Hls9ULl6EfC51IdjCsP5TQ" inPartition="_ahz3cLl5EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:DataStoreNode" xmi:id="_8_d-cLl5EfC51IdjCsP5TQ" name="Store joined student detials" incoming="_Hls9ULl6EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_8_fMkLl5EfC51IdjCsP5TQ" value="1"/>
+      </node>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_TxousLl6EfC51IdjCsP5TQ" name="Edit USU events" node="_Z0lvoLl6EfC51IdjCsP5TQ _dTKIQLl6EfC51IdjCsP5TQ _hP0yILl6EfC51IdjCsP5TQ _kotZgLl6EfC51IdjCsP5TQ" group="_adaDILl6EfC51IdjCsP5TQ _b6YXcLl6EfC51IdjCsP5TQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ns9NoLl6EfC51IdjCsP5TQ" target="_dTKIQLl6EfC51IdjCsP5TQ" source="_Z0lvoLl6EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_p6gqULl6EfC51IdjCsP5TQ" target="_hP0yILl6EfC51IdjCsP5TQ" source="_dTKIQLl6EfC51IdjCsP5TQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_qZWicLl6EfC51IdjCsP5TQ" target="_kotZgLl6EfC51IdjCsP5TQ" source="_hP0yILl6EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_adaDILl6EfC51IdjCsP5TQ" name="USU officer" node="_dTKIQLl6EfC51IdjCsP5TQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_b6YXcLl6EfC51IdjCsP5TQ" name="Student" node="_kotZgLl6EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_Z0lvoLl6EfC51IdjCsP5TQ" name="" outgoing="_ns9NoLl6EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_dTKIQLl6EfC51IdjCsP5TQ" name="Edit or release event detials" incoming="_ns9NoLl6EfC51IdjCsP5TQ" outgoing="_p6gqULl6EfC51IdjCsP5TQ" inPartition="_adaDILl6EfC51IdjCsP5TQ"/>
+      <node xmi:type="uml:CentralBufferNode" xmi:id="_hP0yILl6EfC51IdjCsP5TQ" name="New event detials" incoming="_p6gqULl6EfC51IdjCsP5TQ" outgoing="_qZWicLl6EfC51IdjCsP5TQ">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_hP1ZMLl6EfC51IdjCsP5TQ" value="1"/>
+      </node>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_kotZgLl6EfC51IdjCsP5TQ" name="Veiw new detials or edited detials" incoming="_qZWicLl6EfC51IdjCsP5TQ" inPartition="_b6YXcLl6EfC51IdjCsP5TQ"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9FhVYLl0EfC51IdjCsP5TQ" target="_hRemsLl0EfC51IdjCsP5TQ" source="_XXN9ALl0EfC51IdjCsP5TQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_A-Uy8Ll1EfC51IdjCsP5TQ" target="_2jYeELl0EfC51IdjCsP5TQ" source="_hRemsLl0EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_A-ej8Ll1EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_A-ej8bl1EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_HLhVALl1EfC51IdjCsP5TQ" target="_nvCgALl0EfC51IdjCsP5TQ" source="_2jYeELl0EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_HLmNgLl1EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_HLmNgbl1EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_angzoLl1EfC51IdjCsP5TQ" inPartition="_dEb-gLl0EfC51IdjCsP5TQ" target="_WfEXkLl1EfC51IdjCsP5TQ" source="_nvCgALl0EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_anm6QLl1EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_anm6Qbl1EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_-euukLl1EfC51IdjCsP5TQ" name="Reject Application" inPartition="_dEb-gLl0EfC51IdjCsP5TQ" target="_xGBoELl1EfC51IdjCsP5TQ" source="_WfEXkLl1EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_-e0OILl1EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_-e0OIbl1EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_EjUuQLl2EfC51IdjCsP5TQ" name="Accept applciation" inPartition="_dEb-gLl0EfC51IdjCsP5TQ" target="_dtMLILl1EfC51IdjCsP5TQ" source="_WfEXkLl1EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Eja04Ll2EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Ejbb8Ll2EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_Fta38Ll4EfC51IdjCsP5TQ" target="_AkjgsLl4EfC51IdjCsP5TQ" source="_dtMLILl1EfC51IdjCsP5TQ">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_FtoTULl4EfC51IdjCsP5TQ" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_FtoTUbl4EfC51IdjCsP5TQ" value="1"/>
+    </edge>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_N_QvILl0EfC51IdjCsP5TQ" name="Student Union" node="_hRemsLl0EfC51IdjCsP5TQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_dEb-gLl0EfC51IdjCsP5TQ" name="USU officer" node="_nvCgALl0EfC51IdjCsP5TQ _WfEXkLl1EfC51IdjCsP5TQ _dtMLILl1EfC51IdjCsP5TQ _xGBoELl1EfC51IdjCsP5TQ" edge="_angzoLl1EfC51IdjCsP5TQ _-euukLl1EfC51IdjCsP5TQ _EjUuQLl2EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_XXN9ALl0EfC51IdjCsP5TQ" name="" outgoing="_9FhVYLl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hRemsLl0EfC51IdjCsP5TQ" name="Apply to join the USU" incoming="_9FhVYLl0EfC51IdjCsP5TQ" outgoing="_A-Uy8Ll1EfC51IdjCsP5TQ" inPartition="_N_QvILl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nvCgALl0EfC51IdjCsP5TQ" name="Recive USU application" incoming="_HLhVALl1EfC51IdjCsP5TQ" outgoing="_angzoLl1EfC51IdjCsP5TQ" inPartition="_dEb-gLl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_2jYeELl0EfC51IdjCsP5TQ" name="USU application" incoming="_A-Uy8Ll1EfC51IdjCsP5TQ" outgoing="_HLhVALl1EfC51IdjCsP5TQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_2jZsMLl0EfC51IdjCsP5TQ" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WfEXkLl1EfC51IdjCsP5TQ" name="Reveiw USU application" incoming="_angzoLl1EfC51IdjCsP5TQ" outgoing="_-euukLl1EfC51IdjCsP5TQ _EjUuQLl2EfC51IdjCsP5TQ" inPartition="_dEb-gLl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dtMLILl1EfC51IdjCsP5TQ" name="Add Union to the database and prepair USU account" incoming="_EjUuQLl2EfC51IdjCsP5TQ" outgoing="_Fta38Ll4EfC51IdjCsP5TQ" inPartition="_dEb-gLl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xGBoELl1EfC51IdjCsP5TQ" name="Send rejection to Union" incoming="_-euukLl1EfC51IdjCsP5TQ" inPartition="_dEb-gLl0EfC51IdjCsP5TQ"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_AkjgsLl4EfC51IdjCsP5TQ" name="Store Union data" incoming="_Fta38Ll4EfC51IdjCsP5TQ">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Akku0Ll4EfC51IdjCsP5TQ" value="1"/>
+    </node>
+  </packagedElement>
+</uml:Model>
