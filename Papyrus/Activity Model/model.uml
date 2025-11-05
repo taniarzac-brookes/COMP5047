@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_a3ZvULmtEfCbw_SjIN7u5g" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_a6SrQLmtEfCbw_SjIN7u5g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_a5zjELmtEfCbw_SjIN7u5g" name="Student Registers to Event" node="_xCUAYLmvEfCbw_SjIN7u5g _XfEaMLmwEfCbw_SjIN7u5g _l4L00LmwEfCbw_SjIN7u5g _qbr1MLmwEfCbw_SjIN7u5g _HMAl8LmxEfCbw_SjIN7u5g _NF6_oLmxEfCbw_SjIN7u5g _YrYFwLozEfChIsEEA6qvzw _sMKIULo0EfChIsEEA6qvzw _9JEVYLo0EfChIsEEA6qvzw _cNq14Lo1EfChIsEEA6qvzw _hDeHMLo1EfChIsEEA6qvzw _1h6hULo1EfChIsEEA6qvzw _3v2_kLo1EfChIsEEA6qvzw _B33xYLo2EfChIsEEA6qvzw _JPjJkLo2EfChIsEEA6qvzw _OLNLQLo2EfChIsEEA6qvzw _W_oOQLo2EfChIsEEA6qvzw _evjHULo2EfChIsEEA6qvzw _pgycULo2EfChIsEEA6qvzw _1I_OgLo2EfChIsEEA6qvzw _62m4oLo2EfChIsEEA6qvzw _AJMzoLo3EfChIsEEA6qvzw _IAangLo3EfChIsEEA6qvzw _scU5ALo5EfChIsEEA6qvzw" group="_vYPWILmtEfCbw_SjIN7u5g _r85QoLmtEfCbw_SjIN7u5g _pT08oLmtEfCbw_SjIN7u5g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xYssYLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g" target="_XfEaMLmwEfCbw_SjIN7u5g" source="_xCUAYLmvEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yoWWYLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g" target="_YrYFwLozEfChIsEEA6qvzw" source="_XfEaMLmwEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0eVnoLo5EfChIsEEA6qvzw" target="_l4L00LmwEfCbw_SjIN7u5g" source="_YrYFwLozEfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_24ZPQLo5EfChIsEEA6qvzw" target="_qbr1MLmwEfCbw_SjIN7u5g" source="_l4L00LmwEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4SJ3gLo5EfChIsEEA6qvzw" target="_HMAl8LmxEfCbw_SjIN7u5g" source="_qbr1MLmwEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5wjvMLo5EfChIsEEA6qvzw" target="_NF6_oLmxEfCbw_SjIN7u5g" source="_HMAl8LmxEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7IvDELo5EfChIsEEA6qvzw" target="_sMKIULo0EfChIsEEA6qvzw" source="_NF6_oLmxEfCbw_SjIN7u5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9bw1oLo5EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_9JEVYLo0EfChIsEEA6qvzw" source="_sMKIULo0EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__qTJwLo5EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_hDeHMLo1EfChIsEEA6qvzw" source="_9JEVYLo0EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_B0xdQLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_cNq14Lo1EfChIsEEA6qvzw" source="_9JEVYLo0EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DZ95cLo6EfChIsEEA6qvzw" target="_1h6hULo1EfChIsEEA6qvzw" source="_hDeHMLo1EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EcwzMLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_B33xYLo2EfChIsEEA6qvzw" source="_1h6hULo1EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Ftn-ILo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_3v2_kLo1EfChIsEEA6qvzw" source="_B33xYLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IVsMkLo6EfChIsEEA6qvzw" target="_cNq14Lo1EfChIsEEA6qvzw" source="_B33xYLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Jsb9ELo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_JPjJkLo2EfChIsEEA6qvzw" source="_3v2_kLo1EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KcFRULo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_OLNLQLo2EfChIsEEA6qvzw" source="_JPjJkLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NB9HYLo6EfChIsEEA6qvzw" target="_cNq14Lo1EfChIsEEA6qvzw" source="_OLNLQLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Nsi8gLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_W_oOQLo2EfChIsEEA6qvzw" source="_OLNLQLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_O8C1gLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g" target="_evjHULo2EfChIsEEA6qvzw" source="_W_oOQLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Q0GjULo6EfChIsEEA6qvzw" target="_HMAl8LmxEfCbw_SjIN7u5g" source="_evjHULo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UFeNcLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_pgycULo2EfChIsEEA6qvzw" source="_cNq14Lo1EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VevtgLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_1I_OgLo2EfChIsEEA6qvzw" source="_pgycULo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_W9s-0Lo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g" target="_62m4oLo2EfChIsEEA6qvzw" source="_1I_OgLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZJxNwLo6EfChIsEEA6qvzw" target="_AJMzoLo3EfChIsEEA6qvzw" source="_62m4oLo2EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aHkSwLo6EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g" target="_IAangLo3EfChIsEEA6qvzw" source="_AJMzoLo3EfChIsEEA6qvzw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bhM_MLo6EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g" target="_scU5ALo5EfChIsEEA6qvzw" source="_IAangLo3EfChIsEEA6qvzw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_pT08oLmtEfCbw_SjIN7u5g" name="Student" node="_XfEaMLmwEfCbw_SjIN7u5g _qbr1MLmwEfCbw_SjIN7u5g _NF6_oLmxEfCbw_SjIN7u5g _xCUAYLmvEfCbw_SjIN7u5g _YrYFwLozEfChIsEEA6qvzw _AJMzoLo3EfChIsEEA6qvzw _IAangLo3EfChIsEEA6qvzw _scU5ALo5EfChIsEEA6qvzw" edge="_xYssYLo5EfChIsEEA6qvzw _yoWWYLo5EfChIsEEA6qvzw _aHkSwLo6EfChIsEEA6qvzw _bhM_MLo6EfChIsEEA6qvzw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_swHs0Lo7EfChIsEEA6qvzw"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_r85QoLmtEfCbw_SjIN7u5g" name="USU App" node="_l4L00LmwEfCbw_SjIN7u5g _HMAl8LmxEfCbw_SjIN7u5g _sMKIULo0EfChIsEEA6qvzw _9JEVYLo0EfChIsEEA6qvzw _cNq14Lo1EfChIsEEA6qvzw _hDeHMLo1EfChIsEEA6qvzw _pgycULo2EfChIsEEA6qvzw _1I_OgLo2EfChIsEEA6qvzw _62m4oLo2EfChIsEEA6qvzw" edge="_9bw1oLo5EfChIsEEA6qvzw __qTJwLo5EfChIsEEA6qvzw _B0xdQLo6EfChIsEEA6qvzw _UFeNcLo6EfChIsEEA6qvzw _VevtgLo6EfChIsEEA6qvzw _W9s-0Lo6EfChIsEEA6qvzw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_gl62QLo6EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_oP77oLo6EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_qajuMLo8EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_roIUkLo8EfChIsEEA6qvzw"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_vYPWILmtEfCbw_SjIN7u5g" name="Payment Service" node="_1h6hULo1EfChIsEEA6qvzw _3v2_kLo1EfChIsEEA6qvzw _B33xYLo2EfChIsEEA6qvzw _JPjJkLo2EfChIsEEA6qvzw _OLNLQLo2EfChIsEEA6qvzw _W_oOQLo2EfChIsEEA6qvzw _evjHULo2EfChIsEEA6qvzw" edge="_EcwzMLo6EfChIsEEA6qvzw _Ftn-ILo6EfChIsEEA6qvzw _Jsb9ELo6EfChIsEEA6qvzw _KcFRULo6EfChIsEEA6qvzw _Nsi8gLo6EfChIsEEA6qvzw _O8C1gLo6EfChIsEEA6qvzw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_mGnesLo6EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_-fiKULo6EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_CQPb0Lo7EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_VJQTwLo8EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_YBo2ILo8EfChIsEEA6qvzw"/>
+    </group>
+    <node xmi:type="uml:InitialNode" xmi:id="_xCUAYLmvEfCbw_SjIN7u5g" name="Initial Node" outgoing="_xYssYLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_XfEaMLmwEfCbw_SjIN7u5g" name="Open Application" incoming="_xYssYLo5EfChIsEEA6qvzw" outgoing="_yoWWYLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_l4L00LmwEfCbw_SjIN7u5g" name="Display Available Events" incoming="_0eVnoLo5EfChIsEEA6qvzw" outgoing="_24ZPQLo5EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_qbr1MLmwEfCbw_SjIN7u5g" name="Select Event" incoming="_24ZPQLo5EfChIsEEA6qvzw" outgoing="_4SJ3gLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_HMAl8LmxEfCbw_SjIN7u5g" name="Display Event Information" incoming="_4SJ3gLo5EfChIsEEA6qvzw _Q0GjULo6EfChIsEEA6qvzw" outgoing="_5wjvMLo5EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_NF6_oLmxEfCbw_SjIN7u5g" name="Click &quot;Register&quot;" incoming="_5wjvMLo5EfChIsEEA6qvzw" outgoing="_7IvDELo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_YrYFwLozEfChIsEEA6qvzw" name="Navigate to &quot;Events&quot;" incoming="_yoWWYLo5EfChIsEEA6qvzw" outgoing="_0eVnoLo5EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_sMKIULo0EfChIsEEA6qvzw" name="Check Event Ticket Price" incoming="_7IvDELo5EfChIsEEA6qvzw" outgoing="_9bw1oLo5EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_9JEVYLo0EfChIsEEA6qvzw" name="DecisionNode13" incoming="_9bw1oLo5EfChIsEEA6qvzw" outgoing="__qTJwLo5EfChIsEEA6qvzw _B0xdQLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g">
+      <ownedComment xmi:type="uml:Comment" xmi:id="__fbEkLo7EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_AEPo4Lo8EfChIsEEA6qvzw"/>
+    </node>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_cNq14Lo1EfChIsEEA6qvzw" name="Confirm Registration" incoming="_B0xdQLo6EfChIsEEA6qvzw _IVsMkLo6EfChIsEEA6qvzw _NB9HYLo6EfChIsEEA6qvzw" outgoing="_UFeNcLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_hDeHMLo1EfChIsEEA6qvzw" name="Redirect to Payment Service" incoming="__qTJwLo5EfChIsEEA6qvzw" outgoing="_DZ95cLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_1h6hULo1EfChIsEEA6qvzw" name="Process Payment" incoming="_DZ95cLo6EfChIsEEA6qvzw" outgoing="_EcwzMLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_3v2_kLo1EfChIsEEA6qvzw" name="Display Error" incoming="_Ftn-ILo6EfChIsEEA6qvzw" outgoing="_Jsb9ELo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_B33xYLo2EfChIsEEA6qvzw" name="DecisionNode17" incoming="_EcwzMLo6EfChIsEEA6qvzw" outgoing="_Ftn-ILo6EfChIsEEA6qvzw _IVsMkLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_uoLaoLo7EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_yTFmILo7EfChIsEEA6qvzw"/>
+    </node>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_JPjJkLo2EfChIsEEA6qvzw" name="Retry Payment" incoming="_Jsb9ELo6EfChIsEEA6qvzw" outgoing="_KcFRULo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_OLNLQLo2EfChIsEEA6qvzw" name="DecisionNode19" incoming="_KcFRULo6EfChIsEEA6qvzw" outgoing="_NB9HYLo6EfChIsEEA6qvzw _Nsi8gLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_7ovG4Lo7EfChIsEEA6qvzw"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_8f6mgLo7EfChIsEEA6qvzw"/>
+    </node>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_W_oOQLo2EfChIsEEA6qvzw" name="Display Error" incoming="_Nsi8gLo6EfChIsEEA6qvzw" outgoing="_O8C1gLo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_evjHULo2EfChIsEEA6qvzw" name="Redirect to Event Info" incoming="_O8C1gLo6EfChIsEEA6qvzw" outgoing="_Q0GjULo6EfChIsEEA6qvzw" inPartition="_vYPWILmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_pgycULo2EfChIsEEA6qvzw" name="Add Student to Event List" incoming="_UFeNcLo6EfChIsEEA6qvzw" outgoing="_VevtgLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_1I_OgLo2EfChIsEEA6qvzw" name="Update Event List Database" incoming="_VevtgLo6EfChIsEEA6qvzw" outgoing="_W9s-0Lo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_62m4oLo2EfChIsEEA6qvzw" name="Confirm Event Booking to Student" incoming="_W9s-0Lo6EfChIsEEA6qvzw" outgoing="_ZJxNwLo6EfChIsEEA6qvzw" inPartition="_r85QoLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_AJMzoLo3EfChIsEEA6qvzw" name="View &quot;Successful Booking&quot;" incoming="_ZJxNwLo6EfChIsEEA6qvzw" outgoing="_aHkSwLo6EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_IAangLo3EfChIsEEA6qvzw" name="View Event Receipt" incoming="_aHkSwLo6EfChIsEEA6qvzw" outgoing="_bhM_MLo6EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_scU5ALo5EfChIsEEA6qvzw" name="ActivityFinalNode" incoming="_bhM_MLo6EfChIsEEA6qvzw" inPartition="_pT08oLmtEfCbw_SjIN7u5g"/>
+  </packagedElement>
+</uml:Model>
