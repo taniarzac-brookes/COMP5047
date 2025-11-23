@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_GlSj8L8yEfCthMfPiSdUzQ" name="Component Diagram">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_GptJ4L8yEfCthMfPiSdUzQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_A06j8L82EfCthMfPiSdUzQ" name="External Systems">
+      <packagedElement xmi:type="uml:Component" xmi:id="_LUY-EL83EfCthMfPiSdUzQ" name="University SSO"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_NCSqUL83EfCthMfPiSdUzQ" name="Payment Gateway"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Q4PoML83EfCthMfPiSdUzQ" name="Notification Server"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_YWKLQL83EfCthMfPiSdUzQ" name="Cloud Backend &amp; Database"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ZYPocL85EfCthMfPiSdUzQ" name="AuthAPI"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_g5X3kL85EfCthMfPiSdUzQ" name="PaymentAPI"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_khaVQL85EfCthMfPiSdUzQ" name="NotificationAPI"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FDSo4L82EfCthMfPiSdUzQ" name="Security Layer">
+      <packagedElement xmi:type="uml:Component" xmi:id="_6nLG8L9DEfCthMfPiSdUzQ" name="Security Layer"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_IDoNYL82EfCthMfPiSdUzQ" name="Application/Main Logic">
+      <packagedElement xmi:type="uml:Component" xmi:id="_kcqfgL82EfCthMfPiSdUzQ" name="Authentication Manager">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_5LXlYL9FEfCthMfPiSdUzQ" name="DB API" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_menwML82EfCthMfPiSdUzQ" name="Event Manager">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_S-xSAL9GEfCthMfPiSdUzQ" name="Port1" aggregation="composite">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_UAcKYL9GEfCthMfPiSdUzQ">
+            <body>Payment API</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_WZE1sL9GEfCthMfPiSdUzQ" name="DBAPI" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_gQVOsL9GEfCthMfPiSdUzQ" name="Port3" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_ozXaAL82EfCthMfPiSdUzQ" name="Payment Processor"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_q73XkL82EfCthMfPiSdUzQ" name="Society Manager">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_v_cy8L9GEfCthMfPiSdUzQ" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_1D_D0L9GEfCthMfPiSdUzQ" name="Port2" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_wLooEL82EfCthMfPiSdUzQ" name="Communication Service">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_daE90L9HEfCthMfPiSdUzQ" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_fz5U4L9HEfCthMfPiSdUzQ" name="Port2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_hZARgL9HEfCthMfPiSdUzQ" name="Port3" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MuZyEL9EEfCthMfPiSdUzQ" name="AuthAPI"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_cewscL9EEfCthMfPiSdUzQ" name="Secure API"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_fI6mkL85EfCthMfPiSdUzQ" name="EventAPI"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_rD5e8L9GEfCthMfPiSdUzQ" name="Society API"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_J6jqEL9HEfCthMfPiSdUzQ" name="Student Profile SErvice">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_u2cHAL9HEfCthMfPiSdUzQ" name="Port1" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_VM12oL9HEfCthMfPiSdUzQ" name="Message API"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_pEfWgL9HEfCthMfPiSdUzQ" name="ProfileAPI"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_OBhvML82EfCthMfPiSdUzQ" name="Presentation">
+      <packagedElement xmi:type="uml:Component" xmi:id="_gIUVcL82EfCthMfPiSdUzQ" name="Mobile UI">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_5zNWkL9HEfCthMfPiSdUzQ" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_8Ly-kL9HEfCthMfPiSdUzQ" name="Port2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9zjmkL9HEfCthMfPiSdUzQ" name="Port3" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="__va2UL9HEfCthMfPiSdUzQ" name="Port4" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_iJ4kkL82EfCthMfPiSdUzQ" name="Local Cache"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Cz4s4L9IEfCthMfPiSdUzQ" name="displayNotification"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_r1bVcL85EfCthMfPiSdUzQ" name="CacheAPI"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QYLdgL82EfCthMfPiSdUzQ" name="Cloud Backend">
+      <packagedElement xmi:type="uml:Component" xmi:id="_NNZeYL9IEfCthMfPiSdUzQ" name="Cloud Backend and Database"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_a7Ad4L9IEfCthMfPiSdUzQ" name="DB API"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qF9i8L85EfCthMfPiSdUzQ" name="Secure API"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_l2JVwL9IEfCthMfPiSdUzQ" name="Notification Handler">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_t7ba0L9IEfCthMfPiSdUzQ" name="SecureAPI" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pTj30L9IEfCthMfPiSdUzQ" name="Notification API"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1qtqcL83EfCthMfPiSdUzQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1qxU0L83EfCthMfPiSdUzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_1q53sL83EfCthMfPiSdUzQ" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_UAdYgL9GEfCthMfPiSdUzQ" base_Comment="_UAcKYL9GEfCthMfPiSdUzQ" language="org.eclipse.papyrus.uml.textedit.port.xtext.UmlPort"/>
+</xmi:XMI>
