@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Eu8SwMppEfCGq4zwZvpy-A" name="COMP5047 Use Case Diagrams">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Ez1Z0MppEfCGq4zwZvpy-A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_xytc0MppEfCGq4zwZvpy-A" name="Use Case: SUMS" useCase="_L3QtYMp2EfCGq4zwZvpy-A _R1uP4Mp2EfCGq4zwZvpy-A _VHqhwMp2EfCGq4zwZvpy-A _OGCcoMp3EfCGq4zwZvpy-A _2tm2INDjEfCFe4WuscBZXw _3VU9cNDjEfCFe4WuscBZXw">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_L3QtYMp2EfCGq4zwZvpy-A" name="Approve Society Request" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_R1uP4Mp2EfCGq4zwZvpy-A" name="Reject Request" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VHqhwMp2EfCGq4zwZvpy-A" name="View Society Request" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OGCcoMp3EfCGq4zwZvpy-A" name="Log-in" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2tm2INDjEfCFe4WuscBZXw" name="Create Society/Event Application" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_3VU9cNDjEfCFe4WuscBZXw" name="Change Details" subject="_xytc0MppEfCGq4zwZvpy-A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_z8HUANDlEfCFe4WuscBZXw" name="Union Officer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_11kI8NDlEfCFe4WuscBZXw" name="Society Leader"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_92Bi8NDmEfCFe4WuscBZXw" memberEnd="_92CKAtDmEfCFe4WuscBZXw _92CKA9DmEfCFe4WuscBZXw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_92CKANDmEfCFe4WuscBZXw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_92CKAdDmEfCFe4WuscBZXw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_92CKAtDmEfCFe4WuscBZXw" name="log-in" type="_OGCcoMp3EfCGq4zwZvpy-A" association="_92Bi8NDmEfCFe4WuscBZXw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_92CKA9DmEfCFe4WuscBZXw" name="union officer" type="_z8HUANDlEfCFe4WuscBZXw" association="_92Bi8NDmEfCFe4WuscBZXw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_E84Q4NDnEfCFe4WuscBZXw" memberEnd="_E8438tDnEfCFe4WuscBZXw _E85fANDnEfCFe4WuscBZXw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E8438NDnEfCFe4WuscBZXw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E8438dDnEfCFe4WuscBZXw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_E8438tDnEfCFe4WuscBZXw" name="log-in" type="_OGCcoMp3EfCGq4zwZvpy-A" association="_E84Q4NDnEfCFe4WuscBZXw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_E85fANDnEfCFe4WuscBZXw" name="society leader" type="_11kI8NDlEfCFe4WuscBZXw" association="_E84Q4NDnEfCFe4WuscBZXw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_F7XSYNDnEfCFe4WuscBZXw" memberEnd="_F7X5ctDnEfCFe4WuscBZXw _F7YggNDnEfCFe4WuscBZXw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F7X5cNDnEfCFe4WuscBZXw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F7X5cdDnEfCFe4WuscBZXw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F7X5ctDnEfCFe4WuscBZXw" name="view society request" type="_VHqhwMp2EfCGq4zwZvpy-A" association="_F7XSYNDnEfCFe4WuscBZXw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F7YggNDnEfCFe4WuscBZXw" name="union officer" type="_z8HUANDlEfCFe4WuscBZXw" association="_F7XSYNDnEfCFe4WuscBZXw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_NkgOANDnEfCFe4WuscBZXw" name="&lt;&lt;include>>" client="_VHqhwMp2EfCGq4zwZvpy-A" supplier="_xytc0MppEfCGq4zwZvpy-A"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OcC6ANDnEfCFe4WuscBZXw" name="&lt;&lt;include>>" client="_xytc0MppEfCGq4zwZvpy-A" supplier="_xytc0MppEfCGq4zwZvpy-A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qh-C4NDnEfCFe4WuscBZXw" memberEnd="_qh_RANDnEfCFe4WuscBZXw _qh_RAdDnEfCFe4WuscBZXw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qh-p8NDnEfCFe4WuscBZXw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qh-p8dDnEfCFe4WuscBZXw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qh_RANDnEfCFe4WuscBZXw" name="create society/event" type="_2tm2INDjEfCFe4WuscBZXw" association="_qh-C4NDnEfCFe4WuscBZXw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qh_RAdDnEfCFe4WuscBZXw" name="society leader" type="_11kI8NDlEfCFe4WuscBZXw" association="_qh-C4NDnEfCFe4WuscBZXw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tG2acNDnEfCFe4WuscBZXw" name="&lt;&lt;include>>" client="_2tm2INDjEfCFe4WuscBZXw" supplier="_xytc0MppEfCGq4zwZvpy-A"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_6bO2QNEWEfCFe4WuscBZXw" name="Approve/Deny Request Use Case" node="_H_RJYNEfEfC-D5o48Rya0Q _aQO_UNEfEfC-D5o48Rya0Q _1f9gANEfEfC-D5o48Rya0Q _e-PKENEgEfC-D5o48Rya0Q _wRmvUNEgEfC-D5o48Rya0Q _DZNSUNEhEfC-D5o48Rya0Q _r3XjMNEhEfC-D5o48Rya0Q _UEVWYNEiEfC-D5o48Rya0Q _4ieHYNEiEfC-D5o48Rya0Q _JplZUNEjEfC-D5o48Rya0Q _RAYnwNEjEfC-D5o48Rya0Q" group="_lSBOkNEbEfC-D5o48Rya0Q _mhocUNEbEfC-D5o48Rya0Q _BCcEsNEgEfC-D5o48Rya0Q">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9UYzsNEhEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q" target="_wRmvUNEgEfC-D5o48Rya0Q" source="_DZNSUNEhEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-wTYENEhEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q" target="_r3XjMNEhEfC-D5o48Rya0Q" source="_DZNSUNEhEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ASSIMNEiEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q" target="_DZNSUNEhEfC-D5o48Rya0Q" source="_e-PKENEgEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_C2vB8NEiEfC-D5o48Rya0Q" target="_e-PKENEgEfC-D5o48Rya0Q" source="_1f9gANEfEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HecM4NEiEfC-D5o48Rya0Q" target="_1f9gANEfEfC-D5o48Rya0Q" source="_aQO_UNEfEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1AGz4NEiEfC-D5o48Rya0Q" target="_UEVWYNEiEfC-D5o48Rya0Q" source="_wRmvUNEgEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cWrxoNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q" target="_JplZUNEjEfC-D5o48Rya0Q" source="_UEVWYNEiEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dT4ZsNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q" target="_JplZUNEjEfC-D5o48Rya0Q" source="_4ieHYNEiEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eMxwkNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q" target="_RAYnwNEjEfC-D5o48Rya0Q" source="_JplZUNEjEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6G55INEjEfC-D5o48Rya0Q" target="_aQO_UNEfEfC-D5o48Rya0Q" source="_H_RJYNEfEfC-D5o48Rya0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7MYTcNEjEfC-D5o48Rya0Q" target="_4ieHYNEiEfC-D5o48Rya0Q" source="_r3XjMNEhEfC-D5o48Rya0Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_lSBOkNEbEfC-D5o48Rya0Q" name="Society Leader" node="_aQO_UNEfEfC-D5o48Rya0Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_mhocUNEbEfC-D5o48Rya0Q" name="Student Union Officer" node="_e-PKENEgEfC-D5o48Rya0Q _wRmvUNEgEfC-D5o48Rya0Q _DZNSUNEhEfC-D5o48Rya0Q _r3XjMNEhEfC-D5o48Rya0Q" edge="_9UYzsNEhEfC-D5o48Rya0Q _-wTYENEhEfC-D5o48Rya0Q _ASSIMNEiEfC-D5o48Rya0Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_BCcEsNEgEfC-D5o48Rya0Q" name="SUMS" node="_UEVWYNEiEfC-D5o48Rya0Q _4ieHYNEiEfC-D5o48Rya0Q _JplZUNEjEfC-D5o48Rya0Q _RAYnwNEjEfC-D5o48Rya0Q" edge="_cWrxoNEjEfC-D5o48Rya0Q _dT4ZsNEjEfC-D5o48Rya0Q _eMxwkNEjEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_H_RJYNEfEfC-D5o48Rya0Q" name="" outgoing="_6G55INEjEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aQO_UNEfEfC-D5o48Rya0Q" name="Submit society application" incoming="_6G55INEjEfC-D5o48Rya0Q" outgoing="_HecM4NEiEfC-D5o48Rya0Q" inPartition="_lSBOkNEbEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_1f9gANEfEfC-D5o48Rya0Q" name="Society Application" incoming="_HecM4NEiEfC-D5o48Rya0Q" outgoing="_C2vB8NEiEfC-D5o48Rya0Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_1f_VMNEfEfC-D5o48Rya0Q" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e-PKENEgEfC-D5o48Rya0Q" name="Receive Society  Application" incoming="_C2vB8NEiEfC-D5o48Rya0Q" outgoing="_ASSIMNEiEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wRmvUNEgEfC-D5o48Rya0Q" name="Accept Application" incoming="_9UYzsNEhEfC-D5o48Rya0Q" outgoing="_1AGz4NEiEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_DZNSUNEhEfC-D5o48Rya0Q" name="Review Society Application" incoming="_ASSIMNEiEfC-D5o48Rya0Q" outgoing="_9UYzsNEhEfC-D5o48Rya0Q _-wTYENEhEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_r3XjMNEhEfC-D5o48Rya0Q" name="Reject Application" incoming="_-wTYENEhEfC-D5o48Rya0Q" outgoing="_7MYTcNEjEfC-D5o48Rya0Q" inPartition="_mhocUNEbEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UEVWYNEiEfC-D5o48Rya0Q" name="Update Status to Approved" incoming="_1AGz4NEiEfC-D5o48Rya0Q" outgoing="_cWrxoNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4ieHYNEiEfC-D5o48Rya0Q" name="Update Status to Rejected" incoming="_7MYTcNEjEfC-D5o48Rya0Q" outgoing="_dT4ZsNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JplZUNEjEfC-D5o48Rya0Q" name="Notify applicant of decision" incoming="_cWrxoNEjEfC-D5o48Rya0Q _dT4ZsNEjEfC-D5o48Rya0Q" outgoing="_eMxwkNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_RAYnwNEjEfC-D5o48Rya0Q" name="Create Audit Logs" incoming="_eMxwkNEjEfC-D5o48Rya0Q" inPartition="_BCcEsNEgEfC-D5o48Rya0Q"/>
+  </packagedElement>
+</uml:Model>
