@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_a4keEMiBEfClzNwJJhpE9A" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_a6g-0MiBEfClzNwJJhpE9A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_v6qX0MiBEfClzNwJJhpE9A" name="Activity2" node="_8TeHkMiBEfClzNwJJhpE9A _Pn6f0MiaEfCFnbOVdsNASQ _V8D-cMiaEfCFnbOVdsNASQ _a82XwMiaEfCFnbOVdsNASQ _dQWEYMiaEfCFnbOVdsNASQ _tjVxwMiaEfCFnbOVdsNASQ _6sBp0MibEfCFnbOVdsNASQ __QkzEMibEfCFnbOVdsNASQ _LKbEAMieEfCFnbOVdsNASQ _UgkpIMigEfCFnbOVdsNASQ _KPgsMMikEfCFnbOVdsNASQ _KXPr4MikEfCFnbOVdsNASQ _Ks-rUMikEfCFnbOVdsNASQ _K1VWEMikEfCFnbOVdsNASQ _6WyDgMikEfCFnbOVdsNASQ _LReqEMilEfCFnbOVdsNASQ _Lamw4MilEfCFnbOVdsNASQ _Lg60QMilEfCFnbOVdsNASQ _LmWG0MilEfCFnbOVdsNASQ _bTswgMilEfCFnbOVdsNASQ _JqzVQMinEfCFnbOVdsNASQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_68S2QMiiEfCFnbOVdsNASQ" name="YES" target="_LKbEAMieEfCFnbOVdsNASQ" source="__QkzEMibEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OxZ_gMijEfCFnbOVdsNASQ" target="_UgkpIMigEfCFnbOVdsNASQ" source="_LKbEAMieEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wI1eQMijEfCFnbOVdsNASQ" name="NO" target="_UgkpIMigEfCFnbOVdsNASQ" source="__QkzEMibEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_obm3YMikEfCFnbOVdsNASQ" target="_KPgsMMikEfCFnbOVdsNASQ" source="_UgkpIMigEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_r4-WIMikEfCFnbOVdsNASQ" target="_K1VWEMikEfCFnbOVdsNASQ" source="_KPgsMMikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vd3ZMMikEfCFnbOVdsNASQ" target="_Ks-rUMikEfCFnbOVdsNASQ" source="_K1VWEMikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z94AsMikEfCFnbOVdsNASQ" target="_KXPr4MikEfCFnbOVdsNASQ" source="_Ks-rUMikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8RXg4MikEfCFnbOVdsNASQ" name="[data valid?]" target="_6WyDgMikEfCFnbOVdsNASQ" source="_KXPr4MikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fmzkcMilEfCFnbOVdsNASQ" name="YES" target="_Lg60QMilEfCFnbOVdsNASQ" source="_6WyDgMikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_igd5MMilEfCFnbOVdsNASQ" name="NO" target="_Lamw4MilEfCFnbOVdsNASQ" source="_6WyDgMikEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mlz98MilEfCFnbOVdsNASQ" target="_LmWG0MilEfCFnbOVdsNASQ" source="_Lg60QMilEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nU_YIMilEfCFnbOVdsNASQ" target="_LReqEMilEfCFnbOVdsNASQ" source="_LmWG0MilEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oHnu8MilEfCFnbOVdsNASQ" target="_bTswgMilEfCFnbOVdsNASQ" source="_LReqEMilEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sRHecMimEfCFnbOVdsNASQ" name="[participation constraints?]" target="__QkzEMibEfCFnbOVdsNASQ" source="_6sBp0MibEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NE_kMMinEfCFnbOVdsNASQ" target="_JqzVQMinEfCFnbOVdsNASQ" source="_Lamw4MilEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OB6fcMinEfCFnbOVdsNASQ" target="_tjVxwMiaEfCFnbOVdsNASQ" source="_JqzVQMinEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8CgYgNCGEfCkw5-z8hdHaA" target="_V8D-cMiaEfCFnbOVdsNASQ" source="_Pn6f0MiaEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9q6gwNCGEfCkw5-z8hdHaA" target="_a82XwMiaEfCFnbOVdsNASQ" source="_V8D-cMiaEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-NnlMNCGEfCkw5-z8hdHaA" target="_dQWEYMiaEfCFnbOVdsNASQ" source="_a82XwMiaEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-o-EcNCGEfCkw5-z8hdHaA" target="_tjVxwMiaEfCFnbOVdsNASQ" source="_dQWEYMiaEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__nrIYNCGEfCkw5-z8hdHaA" target="_6sBp0MibEfCFnbOVdsNASQ" source="_tjVxwMiaEfCFnbOVdsNASQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BRDhANCHEfCkw5-z8hdHaA" target="_Pn6f0MiaEfCFnbOVdsNASQ" source="_8TeHkMiBEfClzNwJJhpE9A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_8TeHkMiBEfClzNwJJhpE9A" name="InitialNode1" outgoing="_BRDhANCHEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Pn6f0MiaEfCFnbOVdsNASQ" name="Open Society Leader App" incoming="_BRDhANCHEfCkw5-z8hdHaA" outgoing="_8CgYgNCGEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_V8D-cMiaEfCFnbOVdsNASQ" name="Select &quot;Manage Events&quot;" incoming="_8CgYgNCGEfCkw5-z8hdHaA" outgoing="_9q6gwNCGEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_a82XwMiaEfCFnbOVdsNASQ" name="Choose &quot;Create Event&quot; " incoming="_9q6gwNCGEfCkw5-z8hdHaA" outgoing="_-NnlMNCGEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dQWEYMiaEfCFnbOVdsNASQ" name="System displays empty event creation form" incoming="_-NnlMNCGEfCkw5-z8hdHaA" outgoing="_-o-EcNCGEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_tjVxwMiaEfCFnbOVdsNASQ" name="Enter basic event information" incoming="_OB6fcMinEfCFnbOVdsNASQ _-o-EcNCGEfCkw5-z8hdHaA" outgoing="__nrIYNCGEfCkw5-z8hdHaA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6sBp0MibEfCFnbOVdsNASQ" name="Enter additional event details" incoming="__nrIYNCGEfCkw5-z8hdHaA" outgoing="_sRHecMimEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="__QkzEMibEfCFnbOVdsNASQ" name="DecisionNode8" incoming="_sRHecMimEfCFnbOVdsNASQ" outgoing="_68S2QMiiEfCFnbOVdsNASQ _wI1eQMijEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LKbEAMieEfCFnbOVdsNASQ" name="Configure participation constraints" incoming="_68S2QMiiEfCFnbOVdsNASQ" outgoing="_OxZ_gMijEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_UgkpIMigEfCFnbOVdsNASQ" name="MergeNode11" incoming="_OxZ_gMijEfCFnbOVdsNASQ _wI1eQMijEfCFnbOVdsNASQ" outgoing="_obm3YMikEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KPgsMMikEfCFnbOVdsNASQ" name="Set event scope and promotion scope" incoming="_obm3YMikEfCFnbOVdsNASQ" outgoing="_r4-WIMikEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KXPr4MikEfCFnbOVdsNASQ" name="System validates event data" incoming="_z94AsMikEfCFnbOVdsNASQ" outgoing="_8RXg4MikEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Ks-rUMikEfCFnbOVdsNASQ" name=" Submit event for creation " incoming="_vd3ZMMikEfCFnbOVdsNASQ" outgoing="_z94AsMikEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_K1VWEMikEfCFnbOVdsNASQ" name="Upload promotion materials" incoming="_r4-WIMikEfCFnbOVdsNASQ" outgoing="_vd3ZMMikEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_6WyDgMikEfCFnbOVdsNASQ" name="DecisionNode9" incoming="_8RXg4MikEfCFnbOVdsNASQ" outgoing="_fmzkcMilEfCFnbOVdsNASQ _igd5MMilEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LReqEMilEfCFnbOVdsNASQ" name="Display confirmation to society leader" incoming="_nU_YIMilEfCFnbOVdsNASQ" outgoing="_oHnu8MilEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Lamw4MilEfCFnbOVdsNASQ" name="Display validation errors" incoming="_igd5MMilEfCFnbOVdsNASQ" outgoing="_NE_kMMinEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Lg60QMilEfCFnbOVdsNASQ" name="Store event in the USU system" incoming="_fmzkcMilEfCFnbOVdsNASQ" outgoing="_mlz98MilEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LmWG0MilEfCFnbOVdsNASQ" name="Trigger event promotion" incoming="_mlz98MilEfCFnbOVdsNASQ" outgoing="_nU_YIMilEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_bTswgMilEfCFnbOVdsNASQ" name="ActivityFinalNode30" incoming="_oHnu8MilEfCFnbOVdsNASQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JqzVQMinEfCFnbOVdsNASQ" name="Correct event information" incoming="_NE_kMMinEfCFnbOVdsNASQ" outgoing="_OB6fcMinEfCFnbOVdsNASQ"/>
+  </packagedElement>
+</uml:Model>
