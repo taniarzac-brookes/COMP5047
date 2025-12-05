@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vwLwMNETEfCG54e_jABzkQ" name="Component Diagram Subsystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_v0_-wNETEfCG54e_jABzkQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_1qP64NETEfCG54e_jABzkQ" name="Student Mobile App">
+    <packagedElement xmi:type="uml:Component" xmi:id="__l2BUNETEfCG54e_jABzkQ" name="StudentMobileApp">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_h5W4YNEVEfCG54e_jABzkQ" name="Student Authentication"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_2uLLINEVEfCG54e_jABzkQ" name="Student Login"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_71PLkNEVEfCG54e_jABzkQ" name="Student Registration"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_B_o4UNEWEfCG54e_jABzkQ" name="Student Purchase"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_J1cW8NEWEfCG54e_jABzkQ" name="Edit Student Profile"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_NzUMoNEUEfCG54e_jABzkQ" name="StudentGUI"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_UwpLINEUEfCG54e_jABzkQ" name="Student cloud Connection Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_bMYfgNEUEfCG54e_jABzkQ" name="Student Registration Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_qOGLMNEUEfCG54e_jABzkQ" name="Search Event"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_t6pVcNEUEfCG54e_jABzkQ" name="Student Society Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_wWSRcNEUEfCG54e_jABzkQ" name="Student Message Manager"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_0ZJC4NEUEfCG54e_jABzkQ" name="Student Profile"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FU7rENEUEfCG54e_jABzkQ" name="Student Subsystem Services">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_-M_QoNEWEfCG54e_jABzkQ" name="Student Authentication"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_wuIe0NEWEfCG54e_jABzkQ" name="Student Authentication"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_OzUJsNEXEfCG54e_jABzkQ" name="Student Authentication"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_7UJGINEUEfCG54e_jABzkQ" name="Student RegistrationService"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_9aH7MNEUEfCG54e_jABzkQ" name="Event ticket purchase Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_BupEYNEVEfCG54e_jABzkQ" name="Student Society Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_GwtQENEVEfCG54e_jABzkQ" name="Student Message Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_R6QXYNEVEfCG54e_jABzkQ" name="Student Authentication Manager"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_aMJfoNEWEfCG54e_jABzkQ" name="Edit Society"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_mGcHYNEWEfCG54e_jABzkQ" name="Message Student"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_phLv8NEWEfCG54e_jABzkQ" name="View Student Data"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_zvy5ANEWEfCG54e_jABzkQ" name="Student Registration"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_5tuQANEWEfCG54e_jABzkQ" name="Event Purchase"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_DGJX8NEXEfCG54e_jABzkQ" name="Student Authentication"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_LTqd4NEVEfCG54e_jABzkQ" name="Student DataBase"/>
+</uml:Model>
