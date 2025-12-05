@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6NrsMNFHEfCG54e_jABzkQ" name="Sequence Diagram PurchaseTicket">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_6ThOcNFHEfCG54e_jABzkQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_6S0D0NFHEfCG54e_jABzkQ" name="EventTicketPurchase internal behaviour">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HNwQQNFIEfCG54e_jABzkQ" name="Event Purchase" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _DwNrANFLEfCG54e_jABzkQ _DwPgMNFLEfCG54e_jABzkQ _HKWPkNFLEfCG54e_jABzkQ _HKYEwNFLEfCG54e_jABzkQ _gQ75gNFLEfCG54e_jABzkQ _gQ-VwNFLEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Q_HcoNFIEfCG54e_jABzkQ" name="EventDatabase" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _DwNrANFLEfCG54e_jABzkQ _DwPgMNFLEfCG54e_jABzkQ _gQ75gNFLEfCG54e_jABzkQ _gQ-VwNFLEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_X4u_0NFIEfCG54e_jABzkQ" name="Event" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _DwNrANFLEfCG54e_jABzkQ _DwPgMNFLEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_adQLANFIEfCG54e_jABzkQ" name="EventPurchaseDB" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_infokNFIEfCG54e_jABzkQ" name="Book Event" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _HKWPkNFLEfCG54e_jABzkQ _HKYEwNFLEfCG54e_jABzkQ _gQ75gNFLEfCG54e_jABzkQ _gQ-VwNFLEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_k5SsENFIEfCG54e_jABzkQ" name="EventTicketsPS" coveredBy="_0IiLgNFKEfCG54e_jABzkQ _0IehINFKEfCG54e_jABzkQ _5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _HKWPkNFLEfCG54e_jABzkQ _HKYEwNFLEfCG54e_jABzkQ _gQ75gNFLEfCG54e_jABzkQ _gQ-VwNFLEfCG54e_jABzkQ _0IjZoNFKEfCG54e_jABzkQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_nN82UNFIEfCG54e_jABzkQ" name="Student" coveredBy="_5NqSQNFKEfCG54e_jABzkQ _5NsHcNFKEfCG54e_jABzkQ _gQ75gNFLEfCG54e_jABzkQ _gQ-VwNFLEfCG54e_jABzkQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_0IiLgNFKEfCG54e_jABzkQ" name="ActionExecutionSpecification9Start" covered="_k5SsENFIEfCG54e_jABzkQ" execution="_0IehINFKEfCG54e_jABzkQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_0IehINFKEfCG54e_jABzkQ" name="ActionExecutionSpecification9" covered="_k5SsENFIEfCG54e_jABzkQ" finish="_0IjZoNFKEfCG54e_jABzkQ" start="_0IiLgNFKEfCG54e_jABzkQ"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_5NqSQNFKEfCG54e_jABzkQ" name="CombinedFragment12" covered="_HNwQQNFIEfCG54e_jABzkQ _nN82UNFIEfCG54e_jABzkQ _adQLANFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ _X4u_0NFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_5NsHcNFKEfCG54e_jABzkQ" name="InteractionOperand0" covered="_HNwQQNFIEfCG54e_jABzkQ _nN82UNFIEfCG54e_jABzkQ _adQLANFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ _X4u_0NFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ">
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_DwNrANFLEfCG54e_jABzkQ" name="CombinedFragment13" covered="_HNwQQNFIEfCG54e_jABzkQ _X4u_0NFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_DwPgMNFLEfCG54e_jABzkQ" name="InteractionOperand0" covered="_HNwQQNFIEfCG54e_jABzkQ _X4u_0NFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ">
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_DwPgMdFLEfCG54e_jABzkQ" name="guard"/>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_HKWPkNFLEfCG54e_jABzkQ" name="CombinedFragment13" covered="_HNwQQNFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ" interactionOperator="alt">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_HKYEwNFLEfCG54e_jABzkQ" name="InteractionOperand0" covered="_HNwQQNFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ">
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_HKYEwdFLEfCG54e_jABzkQ" name="guard"/>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_0IjZoNFKEfCG54e_jABzkQ" name="ActionExecutionSpecification9Finish" covered="_k5SsENFIEfCG54e_jABzkQ" execution="_0IehINFKEfCG54e_jABzkQ"/>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_5NsHcdFKEfCG54e_jABzkQ" name="guard"/>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_gQ75gNFLEfCG54e_jABzkQ" name="CombinedFragment12" covered="_HNwQQNFIEfCG54e_jABzkQ _nN82UNFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_gQ-VwNFLEfCG54e_jABzkQ" name="InteractionOperand0" covered="_HNwQQNFIEfCG54e_jABzkQ _nN82UNFIEfCG54e_jABzkQ _k5SsENFIEfCG54e_jABzkQ _infokNFIEfCG54e_jABzkQ _Q_HcoNFIEfCG54e_jABzkQ">
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_gQ-VwdFLEfCG54e_jABzkQ" name="guard"/>
+      </operand>
+    </fragment>
+  </packagedElement>
+</uml:Model>

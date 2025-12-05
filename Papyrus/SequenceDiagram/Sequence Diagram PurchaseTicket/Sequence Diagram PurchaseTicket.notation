@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6S6xgNFHEfCG54e_jABzkQ" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_6S6xgdFHEfCG54e_jABzkQ" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6S6xgtFHEfCG54e_jABzkQ" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6S6xg9FHEfCG54e_jABzkQ" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_5NwY4NFKEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_5NwY4tFKEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_5NwY5tFKEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_5NwY6NFKEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Sequence%20Diagram%20PurchaseTicket.uml#_5NsHcdFKEfCG54e_jABzkQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5NwY6dFKEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Sequence%20Diagram%20PurchaseTicket.uml#_5NsHcNFKEfCG54e_jABzkQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5NwY59FKEfCG54e_jABzkQ" width="901" height="900"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_5NwY49FKEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_5NwY5NFKEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5NwY5dFKEfCG54e_jABzkQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Sequence%20Diagram%20PurchaseTicket.uml#_5NqSQNFKEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5NwY4dFKEfCG54e_jABzkQ" x="34" y="54" width="901" height="921"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DwTKkNFLEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_DwTKktFLEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_DwTKltFLEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_DwTKmNFLEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Sequence%20Diagram%20PurchaseTicket.uml#_DwPgMdFLEfCG54e_jABzkQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DwTKmdFLEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Sequence%20Diagram%20PurchaseTicket.uml#_DwPgMNFLEfCG54e_jABzkQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DwTKl9FLEfCG54e_jABzkQ" width="401" height="59"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_DwTKk9FLEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_DwTKlNFLEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DwTKldFLEfCG54e_jABzkQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Sequence%20Diagram%20PurchaseTicket.uml#_DwNrANFLEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DwTKkdFLEfCG54e_jABzkQ" x="394" y="174" width="401" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HKcWMNFLEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HKcWMtFLEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_HKcWNtFLEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_HKcWONFLEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Sequence%20Diagram%20PurchaseTicket.uml#_HKYEwdFLEfCG54e_jABzkQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HKcWOdFLEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Sequence%20Diagram%20PurchaseTicket.uml#_HKYEwNFLEfCG54e_jABzkQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HKcWN9FLEfCG54e_jABzkQ" width="261" height="99"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HKcWM9FLEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HKcWNNFLEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HKcWNdFLEfCG54e_jABzkQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Sequence%20Diagram%20PurchaseTicket.uml#_HKWPkNFLEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HKcWMdFLEfCG54e_jABzkQ" x="174" y="354" width="261" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gRCAINFLEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gRDOQNFLEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_gRDORNFLEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_gRDORtFLEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <element xmi:type="uml:InteractionConstraint" href="Sequence%20Diagram%20PurchaseTicket.uml#_gQ-VwdFLEfCG54e_jABzkQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRDOR9FLEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <element xmi:type="uml:InteractionOperand" href="Sequence%20Diagram%20PurchaseTicket.uml#_gQ-VwNFLEfCG54e_jABzkQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRDORdFLEfCG54e_jABzkQ" width="501" height="99"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_gRDOQdFLEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_gRDOQtFLEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRDOQ9FLEfCG54e_jABzkQ"/>
+        </children>
+        <element xmi:type="uml:CombinedFragment" href="Sequence%20Diagram%20PurchaseTicket.uml#_gQ75gNFLEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRCAIdFLEfCG54e_jABzkQ" x="54" y="614" width="501" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lflIoNFLEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_lflIotFLEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_lflIptFLEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lflIqNFLEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lflIqdFLEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lflIp9FLEfCG54e_jABzkQ" width="421" height="80"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_lflIo9FLEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_lflIpNFLEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lflIpdFLEfCG54e_jABzkQ"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lflIodFLEfCG54e_jABzkQ" x="394" y="854" width="421" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ImOz8NHpEfCG54e_jABzkQ" type="CombinedFragment_Shape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ImQCENHpEfCG54e_jABzkQ" type="CombinedFragment_SubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_ImQCFNHpEfCG54e_jABzkQ" type="InteractionOperand_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ImQCFtHpEfCG54e_jABzkQ" type="InteractionOperand_Guard">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ImQCF9HpEfCG54e_jABzkQ" x="5" y="5"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ImQCFdHpEfCG54e_jABzkQ" width="40" height="23"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ImQCEdHpEfCG54e_jABzkQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ImQCEtHpEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ImQCE9HpEfCG54e_jABzkQ"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ImOz8dHpEfCG54e_jABzkQ" x="769" y="155"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HNysgNFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HNysgtFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_HNwQQNFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HNysgdFIEfCG54e_jABzkQ" x="354" y="10" width="101" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Q_J44NFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Q_J44tFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_Q_HcoNFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q_J44dFIEfCG54e_jABzkQ" x="474" y="10" width="121" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_X4w1ANFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_X4xcEdFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_X4u_0NFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X4xcENFIEfCG54e_jABzkQ" x="626" y="10" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_adTOUNFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_adT1YNFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_adQLANFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adTOUdFIEfCG54e_jABzkQ" x="849" y="10" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_inir4NFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_inir4tFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_infokNFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_inir4dFIEfCG54e_jABzkQ" x="234" y="10" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_k5VvYNFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_k5VvYtFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_0InrENFKEfCG54e_jABzkQ" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Sequence%20Diagram%20PurchaseTicket.uml#_0IehINFKEfCG54e_jABzkQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0InrEdFKEfCG54e_jABzkQ" x="40" y="24" width="20" height="940"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_k5SsENFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k5VvYdFIEfCG54e_jABzkQ" x="119" y="10" height="970"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nOFZMNFIEfCG54e_jABzkQ" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nOFZMtFIEfCG54e_jABzkQ" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="Sequence%20Diagram%20PurchaseTicket.uml#_nN82UNFIEfCG54e_jABzkQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nOFZMdFIEfCG54e_jABzkQ" x="14" y="10" height="970"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6S6xhNFHEfCG54e_jABzkQ"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Sequence%20Diagram%20PurchaseTicket.uml#_6S0D0NFHEfCG54e_jABzkQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6S6xhdFHEfCG54e_jABzkQ"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_6S6xhtFHEfCG54e_jABzkQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_6S6xh9FHEfCG54e_jABzkQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6S6xiNFHEfCG54e_jABzkQ" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="Sequence%20Diagram%20PurchaseTicket.uml#_6NrsMNFHEfCG54e_jABzkQ"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Sequence%20Diagram%20PurchaseTicket.uml#_6S0D0NFHEfCG54e_jABzkQ"/>
+</notation:Diagram>
