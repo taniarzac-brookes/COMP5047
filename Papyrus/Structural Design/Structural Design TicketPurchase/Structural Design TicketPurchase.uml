@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mYkpINEqEfCG54e_jABzkQ" name="Structural Design TicketPurchase">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mdsZsNEqEfCG54e_jABzkQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rm_OwNEqEfCG54e_jABzkQ" name="EventTicketPurchase Service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4XEVYNEyEfCG54e_jABzkQ" name="eventdatabase" type="_DnHNoNEwEfCG54e_jABzkQ" association="_4W_c4NEyEfCG54e_jABzkQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4XHYsNEyEfCG54e_jABzkQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4XHYsdEyEfCG54e_jABzkQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5hp5MdEyEfCG54e_jABzkQ" name="student" type="_L4-LkNEvEfCG54e_jABzkQ" association="_5horENEyEfCG54e_jABzkQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5hp5MtEyEfCG54e_jABzkQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5hqgQNEyEfCG54e_jABzkQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_yZzmYNEqEfCG54e_jABzkQ" name="BookEvent">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TNPKwNEsEfCG54e_jABzkQ" name="addEvent (studentID: String, eventID: String, ticketCount: int)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nlXhgNEsEfCG54e_jABzkQ" name="cancelBooking (studentID: String, EventID: String): boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Bz65ENEtEfCG54e_jABzkQ" name="getBookingDetails (StudentID: String):list&lt;Event>"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_oMunANEtEfCG54e_jABzkQ" name="EventPurchase">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IdG-INEuEfCG54e_jABzkQ" name="purchaseTicket(studentID: String, eventID: String, ticketCount: int, paymentInfo: Payment)"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RSBwYNEuEfCG54e_jABzkQ" name="refundTicket(transactionID: String)"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_l9f54NEuEfCG54e_jABzkQ" name="EventPurchaseDB">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pxd6wNEuEfCG54e_jABzkQ" name="saveTransaction(transaction: Transaction): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_t8r-ANEuEfCG54e_jABzkQ" name="getTransaction(transactionId: String): Transaction"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yPB88NEuEfCG54e_jABzkQ" name="saveBooking(student: Student, event: Event, ticketCount: int): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3ZdacNEuEfCG54e_jABzkQ" name="getEvent(eventId: String): Event"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6WMRUNEuEfCG54e_jABzkQ" name="updateEvent(event: Event): void"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L4-LkNEvEfCG54e_jABzkQ" name="Student">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QymM8NEvEfCG54e_jABzkQ" name="studentId: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UozCcNEvEfCG54e_jABzkQ" name="name: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X2efYNEvEfCG54e_jABzkQ" name="University: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cxC78NEvEfCG54e_jABzkQ" name="address: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_geAV4NEvEfCG54e_jABzkQ" name="bookedEvents: List&lt;Events>" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9bbnItEyEfCG54e_jABzkQ" name="event" type="_hXiJcNEwEfCG54e_jABzkQ" association="_9baZANEyEfCG54e_jABzkQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9bcOMNEyEfCG54e_jABzkQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9bcOMdEyEfCG54e_jABzkQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yWIOANEvEfCG54e_jABzkQ" name="getBookedEvents(): List&lt;Events>"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_157r8NEvEfCG54e_jABzkQ" name="addBooking(event: Event): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4nmzINEvEfCG54e_jABzkQ" name="removeBooking(event: Event): void"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DnHNoNEwEfCG54e_jABzkQ" name="EventDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HRhC0NEwEfCG54e_jABzkQ" name="events: list&lt;Events>" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8c3GEtEyEfCG54e_jABzkQ" name="event" type="_hXiJcNEwEfCG54e_jABzkQ" association="_8c2fANEyEfCG54e_jABzkQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8c3tINEyEfCG54e_jABzkQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8c3tIdEyEfCG54e_jABzkQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_O2hsYNEwEfCG54e_jABzkQ" name="getEvent(eventId: String): Event"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Rxhd4NEwEfCG54e_jABzkQ" name="addEvent(event: Event): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ui7OgNEwEfCG54e_jABzkQ" name="updateEvent(event: Event): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XfQcwNEwEfCG54e_jABzkQ" name="removeEvent(eventId: String): void"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hXiJcNEwEfCG54e_jABzkQ" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kiUqcNEwEfCG54e_jABzkQ" name="eventId: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ohywsNEwEfCG54e_jABzkQ" name="eventTitle: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rCLp0NEwEfCG54e_jABzkQ" name="description: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tmhO0NEwEfCG54e_jABzkQ" name="dateTime: DateTime" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wTE7sNEwEfCG54e_jABzkQ" name="location: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ypzigNEwEfCG54e_jABzkQ" name="availableTickets: int" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1Ky4kNEwEfCG54e_jABzkQ" name="price: float" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-UDRMtEyEfCG54e_jABzkQ" name="transaction" type="_K5bIMNExEfCG54e_jABzkQ" association="_-UCqINEyEfCG54e_jABzkQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-UD4QNEyEfCG54e_jABzkQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-UD4QdEyEfCG54e_jABzkQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3TK6UNEwEfCG54e_jABzkQ" name="checkAvailability(ticketCount: int): boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7NZ7QNEwEfCG54e_jABzkQ" name="reduceTickets(ticketCount: int): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-mjoYNEwEfCG54e_jABzkQ" name="increaseTickets(ticketCount: int): void"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K5bIMNExEfCG54e_jABzkQ" name="Transaction">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OMD9oNExEfCG54e_jABzkQ" name="transactionId: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q9DekNExEfCG54e_jABzkQ" name="studentId: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ThE6gNExEfCG54e_jABzkQ" name="eventId: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WnG3UNExEfCG54e_jABzkQ" name="ticketCount: int" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y3XpwNExEfCG54e_jABzkQ" name="amount: float" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bcdcsNExEfCG54e_jABzkQ" name="status: String" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wdauANExEfCG54e_jABzkQ" name="timestamp: DateTime" visibility="private"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_y6wTINExEfCG54e_jABzkQ" name="processPayment(paymentDetails: Payment): boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1z1ZENExEfCG54e_jABzkQ" name="refund(): boolean"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tYrVMNEyEfCG54e_jABzkQ" client="_rm_OwNEqEfCG54e_jABzkQ" supplier="_yZzmYNEqEfCG54e_jABzkQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_vFTPENEyEfCG54e_jABzkQ" client="_rm_OwNEqEfCG54e_jABzkQ" supplier="_oMunANEtEfCG54e_jABzkQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_wrUxsNEyEfCG54e_jABzkQ" client="_rm_OwNEqEfCG54e_jABzkQ" supplier="_l9f54NEuEfCG54e_jABzkQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4W_c4NEyEfCG54e_jABzkQ" memberEnd="_4XEVYNEyEfCG54e_jABzkQ _4XHYstEyEfCG54e_jABzkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4XDHQNEyEfCG54e_jABzkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4XDHQdEyEfCG54e_jABzkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4XHYstEyEfCG54e_jABzkQ" name="eventticketpurchase service" type="_rm_OwNEqEfCG54e_jABzkQ" association="_4W_c4NEyEfCG54e_jABzkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5horENEyEfCG54e_jABzkQ" memberEnd="_5hp5MdEyEfCG54e_jABzkQ _5hqgQdEyEfCG54e_jABzkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5hpSINEyEfCG54e_jABzkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5hp5MNEyEfCG54e_jABzkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5hqgQdEyEfCG54e_jABzkQ" name="eventticketpurchase service" type="_rm_OwNEqEfCG54e_jABzkQ" association="_5horENEyEfCG54e_jABzkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8c2fANEyEfCG54e_jABzkQ" memberEnd="_8c3GEtEyEfCG54e_jABzkQ _8c3tItEyEfCG54e_jABzkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8c3GENEyEfCG54e_jABzkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8c3GEdEyEfCG54e_jABzkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8c3tItEyEfCG54e_jABzkQ" name="eventdatabase" type="_DnHNoNEwEfCG54e_jABzkQ" association="_8c2fANEyEfCG54e_jABzkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9baZANEyEfCG54e_jABzkQ" memberEnd="_9bbnItEyEfCG54e_jABzkQ _9bcOMtEyEfCG54e_jABzkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9bbnINEyEfCG54e_jABzkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9bbnIdEyEfCG54e_jABzkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9bcOMtEyEfCG54e_jABzkQ" name="student" type="_L4-LkNEvEfCG54e_jABzkQ" association="_9baZANEyEfCG54e_jABzkQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-UCqINEyEfCG54e_jABzkQ" memberEnd="_-UDRMtEyEfCG54e_jABzkQ _-UD4QtEyEfCG54e_jABzkQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-UDRMNEyEfCG54e_jABzkQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-UDRMdEyEfCG54e_jABzkQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-UD4QtEyEfCG54e_jABzkQ" name="event" type="_hXiJcNEwEfCG54e_jABzkQ" association="_-UCqINEyEfCG54e_jABzkQ"/>
+  </packagedElement>
+</uml:Model>
